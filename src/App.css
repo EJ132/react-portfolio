@@ -247,6 +247,46 @@
   width: 75px;
 }
 
+
+
+.btn_div {
+  width: 35%;
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+.btn {
+  width: 40%;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: hsl(180, 100%, 20%);
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
 /* MOBILE VERSION FOR RIGHT SIDE */
 
 @media screen and (max-width: 1024px){
@@ -316,6 +356,10 @@
     margin-bottom: 0px;
   }
 
+  .Skills_Section ul li ul li {
+    font-family: initial;
+  }
+
   .skillImg {
     position: initial;
     margin-top: 20px;
@@ -345,6 +389,24 @@
   .Contact_Section a img {
     height: 50px;
     width: 50px;
+  }
+
+  .btn_div {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+  }
+
+  .btn {
+    width: 40%;
+    height: 40px;
+    background-color: teal;
+    font-size: 14px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-top: 8px;
   }
 
 }

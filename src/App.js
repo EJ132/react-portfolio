@@ -44,7 +44,9 @@ function App() {
               Even if you don't have a dog you can still help others by finding their dogs. 
               This was my first Full-Stack project and was built to help practice with the flow of 
               the real life application process." 
-              img={lostPuppers}/>
+              img={lostPuppers}
+              live='https://lostpuppers.netlify.com/'
+              repo='https://github.com/EJ132/ej-capstone-lost-puppers'/>
               <Project 
               title='Clever German' 
               front='Javascript, React' 
@@ -53,7 +55,9 @@ function App() {
               of DSA (Data Structures & Algorithms). In this application we chose to use linked 
               list to rotate through the cards based on a correct or incorrect user input. This 
               was built in the friendly matter of a language learning enviroment." 
-              img={cleverGerman}/>
+              img={cleverGerman}
+              live='https://clevergerman.netlify.com/'
+              repo='https://github.com/EJ132/EJ-Daniel-Repetition-Capstone'/>
               <Project 
               title='Now Playing' 
               front='Javascript, React' 
@@ -64,7 +68,9 @@ function App() {
               my responsibility everyday to make sure each individual had something to work on, the work was split evenly, check the master branches,
               solve any related issues, and keep track of where we were in the project. It was a great experience
               especially since my group cooperated great." 
-              img={nowPlaying}/>
+              img={nowPlaying}
+              live=''
+              repo='https://github.com/thinkful-ei-gecko/NowPlaying-Client'/>
             </ul>
         </div>
 
@@ -115,9 +121,9 @@ function App() {
         <div className='Contact_Section' id='contact'>
           <header>Contact Me</header>
           <div>
-            <a target='_blank' href='mailto: ejg132@gmail.com?subject=Hey There! Curious for my Resume?'><img src={gmail} alt='gmail'/></a>
-            <a target='_blank' href='https://www.linkedin.com/in/ej-gonzalez/'><img src={linkedin} alt='Linked In'/></a>
-            <a target='_blank' href='https://github.com/EJ132'><img src={github} alt='github'/></a>
+            <a target='_blank' rel="noopener noreferrer" href='mailto: ejg132@gmail.com?subject=Hey There! Curious for my Resume?'><img src={gmail} alt='gmail'/></a>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/ej-gonzalez/'><img src={linkedin} alt='Linked In'/></a>
+            <a target='_blank' rel="noopener noreferrer" href='https://github.com/EJ132'><img src={github} alt='github'/></a>
           </div>
         </div>
 
