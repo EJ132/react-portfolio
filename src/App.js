@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <nav className='nav'>
         <ul>
-          <li>Projects</li>
-          <li>Skills</li> 
-          <li>About Me</li> 
-          <li>Contact</li>   
+          <li><a href='#projects'>Projects</a></li>
+          <li><a href='#skills'>Skills</a></li> 
+          <li><a href='#aboutme'>About Me</a></li> 
+          <li><a href='#contact'>Contact</a></li>   
         </ul>
       </nav>
 
@@ -33,7 +33,7 @@ function App() {
         </div>
 
 
-        <div className='Project_Section'>
+        <div className='Project_Section' id='projects'>
             <header>Projects</header>
             <ul>
               <Project 
@@ -68,7 +68,7 @@ function App() {
             </ul>
         </div>
 
-        <div className='Skills_Section'>
+        <div className='Skills_Section' id='skills'>
           <header>Skills</header>
             <ul>
               <li>
@@ -101,7 +101,7 @@ function App() {
         </div>
 
 
-        <div className='AboutMe_Section'>
+        <div className='AboutMe_Section' id='aboutme'>
           <header>About Me</header>
           <p>Hey there, my name is EJ Gonzalez. I am a passionate energetic coding 
           enthusiast who loves to create web applications. I graduated from Thinkful 
@@ -112,7 +112,7 @@ function App() {
           with a team that shares my passions.</p>
         </div>
 
-        <div className='Contact_Section'>
+        <div className='Contact_Section' id='contact'>
           <header>Contact Me</header>
           <div>
             <a target='_blank' href='mailto: ejg132@gmail.com?subject=Hey There! Curious for my Resume?'><img src={gmail} alt='gmail'/></a>

@@ -376,6 +376,16 @@
   font-size: 2rem;
 }
 
+.nav ul li a {
+  text-decoration: none;
+  color: black
+}
+
+.nav ul li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 .nav ul li:hover {
   cursor: pointer;
   text-decoration: underline;
