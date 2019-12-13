@@ -69,7 +69,7 @@ function App() {
               solve any related issues, and keep track of where we were in the project. It was a great experience
               especially since my group cooperated great." 
               img={nowPlaying}
-              live=''
+              live='https://playing-phi-ten.now.sh/'
               repo='https://github.com/thinkful-ei-gecko/NowPlaying-Client'/>
             </ul>
         </div>
