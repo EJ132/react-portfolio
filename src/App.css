@@ -22,9 +22,10 @@
 /* RIGHT SIDE */
 
 .Right_Section {
-  width: 80%;
+  width: 80vw;
+  min-width: 1000px;
   min-height: 100%;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 /* RIGHT SIDE ======= MOBILE */
