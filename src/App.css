@@ -22,20 +22,20 @@
 /* RIGHT SIDE */
 
 .Right_Section {
-  width: 80vw;
-  min-width: 1000px;
+  width: 100%;
   min-height: 100%;
   overflow: hidden;
 }
 
-/* RIGHT SIDE ======= MOBILE */
+@media screen and (min-width: 1024px){
 
-@media screen and (max-width: 1024px){
   .Right_Section {
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
+    width: 80vw;
+  min-width: 1000px;
+  min-height: 100%;
+  overflow: hidden;
   }
+  
 }
 
 /* MOBILE VERSION FOR RIGHT SIDE */
