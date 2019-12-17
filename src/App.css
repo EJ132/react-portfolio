@@ -74,6 +74,7 @@
   .Home_Section header, .Project_Section header, .Skills_Section header, .AboutMe_Section header, .Contact_Section header {
     font-size: 40px;
     margin-top: 50px;
+    color: black;
   }
 
   .Project_Section {
@@ -335,6 +336,7 @@
   .Project_Section ul li h2 {
     margin-top: 40px;
     margin-bottom: 10px;
+    text-align: left;
   }
   
   .Project_Section ul li p {
