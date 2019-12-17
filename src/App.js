@@ -109,13 +109,11 @@ function App() {
 
         <div className='AboutMe_Section' id='aboutme'>
           <header>About Me</header>
-          <p>Hey there, my name is EJ Gonzalez. I am a passionate energetic coding 
-          enthusiast who loves to create web applications. I graduated from Thinkful 
-          Inc. Engineering Immersion program. Due to my past experience managing and 
-          the many hobbies I include myself in I have been able to attain a valuable 
-          skill set. Assiduous, focused, and determined are only the start of describing me 
-          but, I am eager to demonstrate my leadership abilities and work on various projects 
-          with a team that shares my passions.</p>
+          <p>Hey there, my name is EJ Gonzalez. I am a passionate, energetic, coding enthusiast who loves to create web applications. 
+            I graduated from Thinkful Inc. Engineering Immersion program. Due to my past experience managing and the many hobbies, 
+            I have included myself in, I have been able to attain a valuable skill set. Assiduous, focused, and determined are only the
+             start of describing me but, I am eager to demonstrate my leadership abilities and work on various projects with a team that 
+             shares the same passions.</p>
         </div>
 
         <div className='Contact_Section' id='contact'>
