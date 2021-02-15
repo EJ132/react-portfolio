@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61ed8a33.chunk.css",
+    "main.js": "/static/js/main.03978192.chunk.js",
+    "main.js.map": "/static/js/main.03978192.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3c4bf554.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3c4bf554.js.map",
+    "static/js/2.f60cb0bb.chunk.js": "/static/js/2.f60cb0bb.chunk.js",
+    "static/js/2.f60cb0bb.chunk.js.map": "/static/js/2.f60cb0bb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cbb12f1d38a1a186d8ed065ab3d18530.js": "/precache-manifest.cbb12f1d38a1a186d8ed065ab3d18530.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61ed8a33.chunk.css.map": "/static/css/main.61ed8a33.chunk.css.map",
+    "static/js/2.f60cb0bb.chunk.js.LICENSE": "/static/js/2.f60cb0bb.chunk.js.LICENSE",
+    "static/media/clevergerman.png": "/static/media/clevergerman.8b2642e2.png",
+    "static/media/jaquezlaw.png": "/static/media/jaquezlaw.03dd383a.png",
+    "static/media/lostpuppers.png": "/static/media/lostpuppers.0c6d372d.png",
+    "static/media/nowplaying.png": "/static/media/nowplaying.306bcb93.png",
+    "static/media/profile.jpg": "/static/media/profile.c3b53b48.jpg",
+    "static/media/sbsc.png": "/static/media/sbsc.88850266.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c4bf554.js",
+    "static/js/2.f60cb0bb.chunk.js",
+    "static/css/main.61ed8a33.chunk.css",
+    "static/js/main.03978192.chunk.js"
+  ]
+}
