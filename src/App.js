@@ -10,6 +10,9 @@ import database from './Images/database.png'
 import gmail from './Images/gmail.png'
 import linkedin from './Images/linkedin.png'
 import github from './Images/github.png'
+import jaquezLaw from './Images/jaquezlaw.png'
+import sbsc from './Images/sbsc.png'
+import profile from './Images/profile.jpg'
 
 function App() {
   return (
@@ -71,6 +74,24 @@ function App() {
               img={nowPlaying}
               live='https://playing-phi-ten.now.sh/'
               repo='https://github.com/thinkful-ei-gecko/NowPlaying-Client'/>
+              <Project 
+              title='South Bay Strength Co.' 
+              front='WordPress' 
+              back=""
+              details="E-Commerce site for San Pedro power lifting gym. Built this site with pos, categories, and bulk shipping.
+              I also added the feature for memberships and scheduling 1 on 1's using gymmaster's API." 
+              img={sbsc}
+              live='https://southbaystrengthco.com'
+              repo=''/>
+              <Project 
+              title='Jaquez Law' 
+              front='React, Bootstrap' 
+              back=''
+              details="Built a landing page using React and Bootstrap for a law firm. This site also has a neat feature to translate the
+              content from English to Spanish to serve both cultures." 
+              img={jaquezLaw}
+              live='https://jaquezlaw.netlify.app/'
+              repo=''/>
             </ul>
         </div>
 
@@ -81,9 +102,9 @@ function App() {
                 <div className='skill_bg blue'/>
                 <img className='skillImg' src={monitor} alt='monitor'/>
                   <ul>
-                    <li>React</li>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
+                    <li>React/Angular</li>
+                    <li>HTML/CSS</li>
+                    <li>Javascript/Typescript</li>
                   </ul>
               </li>
               <li>
@@ -91,7 +112,8 @@ function App() {
                 <img className='skillImg' src={backend} alt='monitor'/>
                   <ul>
                     <li>Node</li>
-                    <li>Express</li>
+                    <li>ColdFusion</li>
+                    <li>Heroku</li>
                     <li>AWS</li>
                   </ul>
               </li>
@@ -109,6 +131,7 @@ function App() {
 
         <div className='AboutMe_Section' id='aboutme'>
           <header>About Me</header>
+          <img className="profile_pic" src={profile} />
           <p>Hey there, my name is EJ Gonzalez. I am a passionate, energetic, coding enthusiast who loves to create web applications. 
             I graduated from Thinkful Inc. Engineering Immersion program. Due to my past experience managing and the many hobbies, 
             I have included myself in, I have been able to attain a valuable skill set. Assiduous, focused, and determined are only the
