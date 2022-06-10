@@ -4,56 +4,83 @@ import lostPuppers from "./Images/lostpuppers.png";
 import cleverGerman from "./Images/clevergerman.png";
 import nowPlaying from "./Images/nowplaying.png";
 import Project from "./Components/Project.js";
-import Header from "./Components/Header.js";
-import monitor from "./Images/monitor.png";
-import backend from "./Images/backend.png";
-import database from "./Images/database.png";
-import gmail from "./Images/gmail.png";
-import linkedin from "./Images/linkedin.png";
-import github from "./Images/github.png";
 import jaquezLaw from "./Images/jaquezlaw.png";
+import itrustdash from "./Images/itrustdash.png";
+import cityboibbq from "./Images/cityboibbq.png";
 import sbsc from "./Images/sbsc.png";
-import profile from "./Images/profile.jpg";
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 function App() {
-  // text-align: center;
-  // display: flex;
-  // flex-direction: row;
-  // min-height: 100vh;
-  // width: 100%;
-
   return (
-    <div className="">
-      <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-        <ul>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#aboutme">About Me</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <div className="flex-row min-h-100 min-w-100">
+      <div className="h-screen flex flex-col pb-52 justify-center overflow-hidden bg-zinc-900 text-center">
+        <p className="w-full text-white text-center text-7xl underline decoration-emerald-300 underline-offset-4">
+          EJ Gonzalez
+        </p>
 
-      <div className="Right_Section">
-        <div className="Home_Section">
-          <div className="middle">
-            <Header />
-            <p>
-              "Inovating your ideas into reality with Full-Stack Development..."
-            </p>
-          </div>
+        <p className="text-white pt-8 text-xl">
+          React | React Native | Redux | TypeScript | GraphQL | Node | Express |
+          PostgreSQL
+        </p>
+
+        <p className="max-w-4xl text-center mx-auto pt-4 text-md">
+          Hey there, thanks for checking out my portfolio. Here's a little bit
+          about myself... I am a passionate, energetic, engineer who loves to
+          create all sorts of applications. I graduated from a coding bootcamp
+          called Thinkful Inc. Since graduating in 2018, I have built 5+
+          professional production ready applciations from ground up. My goal is
+          to be the best engineer I can be and work with lots of great people
+          along the way. If your interested in working with me feel free to
+          reach out :)
+        </p>
+
+        <div className="flex flex-row justify-center pt-6">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto: ejg132@gmail.com?subject=Hey There! Curious for my Resume?"
+          >
+            <FiMail color="white" size={42} />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/ej-gonzalez/"
+            className="px-4"
+          >
+            <FaLinkedin color="white" size={42} />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/EJ132"
+          >
+            <FaGithub color="white" size={42} />
+          </a>
         </div>
+      </div>
 
-        <div className="Project_Section" id="projects">
-          <header>Projects</header>
-          <ul>
+      <div className="w-100 h-fill bg-zinc-900 overflow-hidden">
+        <h1 className="text-7xl mb-8 px-11">Projects</h1>
+
+        <div className="flex flex-row flex-wrap" id="projects">
+          <div className="h-1/2 w-1/2 px-12">
+            <Project
+              title="iTrustCapital"
+              front="React Native, GraphQL"
+              back=" "
+              details="Worked on Front End team to deliver iTrustCapital, 
+              a software platform that allows you to buy and sell cryptocurrency, 
+              gold, and silver in your self-directed retirement account, with more than $5.5 billion 
+              in transactions and 150,000+ client accounts."
+              img={itrustdash}
+              live="https://itrustcapital.com/"
+            />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12">
             <Project
               title="Lost Puppers"
               front="Javascript, React"
@@ -66,127 +93,73 @@ function App() {
               live="https://lostpuppers.netlify.com/"
               repo="https://github.com/EJ132/ej-capstone-lost-puppers"
             />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12 mt-24">
             <Project
               title="Clever German"
               front="Javascript, React"
               back="Node.js, MySql, Postgres, Express"
-              details="Clever German was a duo built application made to help practice with the use
-              of DSA (Data Structures & Algorithms). In this application we chose to use linked 
+              details="Clever German is an application I made to help practice German with the use
+              of DSA (Data Structures & Algorithms). I used linked 
               list to rotate through the cards based on a correct or incorrect user input. This 
               was built in the friendly matter of a language learning enviroment."
               img={cleverGerman}
               live="https://clevergerman.netlify.com/"
               repo="https://github.com/EJ132/EJ-Daniel-Repetition-Capstone"
             />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12 mt-24">
             <Project
               title="Now Playing"
               front="Javascript, React"
               back="Node.js, MySql, Postgres, Express"
-              details="Now Playing was a 3 week group project that consisted of 5 people including myself. The app is
-              a watch party related type of application where you can go watch movies with others at the same time
-              or see people's reactions to certain movies. My role in this project was the project manager. It was 
-              my responsibility everyday to make sure each individual had something to work on, the work was split evenly, check the master branches,
-              solve any related issues, and keep track of where we were in the project. It was a great experience
-              especially since my group cooperated great."
+              details="Now Playing is
+              a watch party application where you can go watch movies with others at the same time.
+              It was 
+              my responsibility everyday to make sure the work was split evenly, check the master branches,
+              solve any related issues, and keep track of where we were in the project."
               img={nowPlaying}
               live="https://playing-phi-ten.now.sh/"
               repo="https://github.com/thinkful-ei-gecko/NowPlaying-Client"
             />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12 mt-24">
             <Project
               title="South Bay Strength Co."
-              front="WordPress"
-              back=""
+              front="Squarespace"
               details="E-Commerce site for San Pedro power lifting gym. Built this site with pos, categories, and bulk shipping.
               I also added the feature for memberships and scheduling 1 on 1's using gymmaster's API."
               img={sbsc}
               live="https://southbaystrengthco.com"
               repo=""
             />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12 mt-24">
+            <Project
+              title="CityBoi BBQ"
+              front="Squarespace"
+              details="E-Commerce site for a food startup called CityBoi BBQ. The site includes recipes, events, showcases, and more.
+              Designed and worked through project single handed."
+              img={cityboibbq}
+              live="https://www.cityboi-bbq.com/"
+              repo=""
+            />
+          </div>
+
+          <div className="h-1/2 w-1/2 px-12 my-24">
             <Project
               title="Jaquez Law"
               front="React, Bootstrap"
-              back=""
               details="Built a landing page using React and Bootstrap for a law firm. This site also has a neat feature to translate the
               content from English to Spanish to serve both cultures."
               img={jaquezLaw}
               live="https://jaquezlaw.netlify.app/"
               repo=""
             />
-          </ul>
-        </div>
-
-        <div className="Skills_Section" id="skills">
-          <header>Skills</header>
-          <ul>
-            <li>
-              <div className="skill_bg blue" />
-              <img className="skillImg" src={monitor} alt="monitor" />
-              <ul>
-                <li>React/Angular</li>
-                <li>HTML/CSS</li>
-                <li>Javascript/Typescript</li>
-              </ul>
-            </li>
-            <li>
-              <div className="skill_bg yellow" />
-              <img className="skillImg" src={backend} alt="monitor" />
-              <ul>
-                <li>Node</li>
-                <li>ColdFusion</li>
-                <li>Heroku</li>
-                <li>AWS</li>
-              </ul>
-            </li>
-            <li>
-              <div className="skill_bg red" />
-              <img className="skillImg" src={database} alt="monitor" />
-              <ul>
-                <li>MySQL</li>
-                <li>PostgreSQL</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-
-        <div className="AboutMe_Section" id="aboutme">
-          <header>About Me</header>
-          <img className="profile_pic" src={profile} />
-          <p>
-            Hey there, my name is EJ Gonzalez. I am a passionate, energetic,
-            coding enthusiast who loves to create web applications. I graduated
-            from Thinkful Inc. Engineering Immersion program. Due to my past
-            experience managing and the many hobbies, I have included myself in,
-            I have been able to attain a valuable skill set. Assiduous, focused,
-            and determined are only the start of describing me but, I am eager
-            to demonstrate my leadership abilities and work on various projects
-            with a team that shares the same passions.
-          </p>
-        </div>
-
-        <div className="Contact_Section" id="contact">
-          <header>Contact Me</header>
-          <div>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="mailto: ejg132@gmail.com?subject=Hey There! Curious for my Resume?"
-            >
-              <img src={gmail} alt="gmail" />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/ej-gonzalez/"
-            >
-              <img src={linkedin} alt="Linked In" />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/EJ132"
-            >
-              <img src={github} alt="github" />
-            </a>
           </div>
         </div>
       </div>
