@@ -1,28 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.61ed8a33.chunk.css",
-    "main.js": "/static/js/main.03978192.chunk.js",
-    "main.js.map": "/static/js/main.03978192.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3c4bf554.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3c4bf554.js.map",
-    "static/js/2.f60cb0bb.chunk.js": "/static/js/2.f60cb0bb.chunk.js",
-    "static/js/2.f60cb0bb.chunk.js.map": "/static/js/2.f60cb0bb.chunk.js.map",
+    "main.css": "/static/css/main.6fcd97f5.css",
+    "main.js": "/static/js/main.85c0b43b.js",
+    "static/media/lostpuppers.png": "/static/media/lostpuppers.9d8c471540112216cec0.png",
+    "static/media/nowplaying.png": "/static/media/nowplaying.0274db5f4e4e046226e8.png",
+    "static/media/clevergerman.png": "/static/media/clevergerman.9e5c820d508ccfd9d9d3.png",
+    "static/media/itrustdash.png": "/static/media/itrustdash.0709d6cb71de3bdcfff7.png",
+    "static/media/sbsc.png": "/static/media/sbsc.4e7185912bc283494b30.png",
+    "static/media/cityboibbq.png": "/static/media/cityboibbq.43f4c5c7c44aa858cb25.png",
+    "static/media/jaquezlaw.png": "/static/media/jaquezlaw.62f89554e963d8aa7364.png",
     "index.html": "/index.html",
-    "precache-manifest.cbb12f1d38a1a186d8ed065ab3d18530.js": "/precache-manifest.cbb12f1d38a1a186d8ed065ab3d18530.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.61ed8a33.chunk.css.map": "/static/css/main.61ed8a33.chunk.css.map",
-    "static/js/2.f60cb0bb.chunk.js.LICENSE": "/static/js/2.f60cb0bb.chunk.js.LICENSE",
-    "static/media/clevergerman.png": "/static/media/clevergerman.8b2642e2.png",
-    "static/media/jaquezlaw.png": "/static/media/jaquezlaw.03dd383a.png",
-    "static/media/lostpuppers.png": "/static/media/lostpuppers.0c6d372d.png",
-    "static/media/nowplaying.png": "/static/media/nowplaying.306bcb93.png",
-    "static/media/profile.jpg": "/static/media/profile.c3b53b48.jpg",
-    "static/media/sbsc.png": "/static/media/sbsc.88850266.png"
+    "main.6fcd97f5.css.map": "/static/css/main.6fcd97f5.css.map",
+    "main.85c0b43b.js.map": "/static/js/main.85c0b43b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c4bf554.js",
-    "static/js/2.f60cb0bb.chunk.js",
-    "static/css/main.61ed8a33.chunk.css",
-    "static/js/main.03978192.chunk.js"
+    "static/css/main.6fcd97f5.css",
+    "static/js/main.85c0b43b.js"
   ]
 }
