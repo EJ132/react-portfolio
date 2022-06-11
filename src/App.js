@@ -15,17 +15,17 @@ import { FiMail } from "react-icons/fi";
 function App() {
   return (
     <div className="flex-row min-h-100 min-w-100">
-      <div className="h-screen flex flex-col pb-52 justify-center overflow-hidden bg-zinc-900 text-center">
-        <p className="w-full text-white text-center text-7xl underline decoration-emerald-300 underline-offset-4">
+      <div className="h-screen flex flex-col pb-20 lg:pb-52 justify-center overflow-hidden bg-zinc-900 text-center">
+        <p className="w-full text-white text-center text-3xl lg:text-7xl underline decoration-emerald-300 underline-offset-4">
           EJ Gonzalez
         </p>
 
-        <p className="text-white pt-8 text-xl">
+        <p className="text-white pt-8 text-md lg:text-xl">
           React | React Native | Redux | TypeScript | GraphQL | Node | Express |
           PostgreSQL
         </p>
 
-        <p className="max-w-4xl text-center mx-auto pt-4 text-md">
+        <p className="max-w-4xl text-center mx-auto pt-4 px-4 lg:px-0 text-sm lg:text-md">
           Hey there, thanks for checking out my portfolio. Here's a little bit
           about myself... I am a passionate, energetic, engineer who loves to
           create all sorts of applications. I graduated from a coding bootcamp
@@ -63,10 +63,12 @@ function App() {
       </div>
 
       <div className="w-100 h-fill bg-zinc-900 overflow-hidden">
-        <h1 className="text-7xl mb-8 px-11">Projects</h1>
+        <h1 className="text-center lg:text-left text-3xl lg:text-7xl mb-8 px-11">
+          Projects
+        </h1>
 
-        <div className="flex flex-row flex-wrap" id="projects">
-          <div className="h-1/2 w-1/2 px-12">
+        <div className="flex flex-col lg:flex-row flex-wrap" id="projects">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12">
             <Project
               title="iTrustCapital"
               front="React Native, GraphQL"
@@ -80,7 +82,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-0">
             <Project
               title="Lost Puppers"
               front="Javascript, React"
@@ -95,7 +97,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12 mt-24">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-16">
             <Project
               title="Clever German"
               front="Javascript, React"
@@ -110,7 +112,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12 mt-24">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-16">
             <Project
               title="Now Playing"
               front="Javascript, React"
@@ -126,7 +128,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12 mt-24">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-16">
             <Project
               title="South Bay Strength Co."
               front="Squarespace"
@@ -138,7 +140,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12 mt-24">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-16">
             <Project
               title="CityBoi BBQ"
               front="Squarespace"
@@ -150,7 +152,7 @@ function App() {
             />
           </div>
 
-          <div className="h-1/2 w-1/2 px-12 my-24">
+          <div className="lg:h-1/2 w-full lg:w-1/2 px-4 lg:px-12 mt-8 lg:mt-16 mb-16">
             <Project
               title="Jaquez Law"
               front="React, Bootstrap"
