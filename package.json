@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@material-ui/icons": "^4.11.3",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "material-ui-icons": "^1.0.0-beta.36",
     "netlify-cli": "^8.14.1",
     "react": "^18.1.0",
