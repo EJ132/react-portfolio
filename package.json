@@ -7,9 +7,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "material-ui-icons": "^1.0.0-beta.36",
     "netlify-cli": "^8.14.1",
-    "react": "^16.0.0",
+    "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-scripts": "^5.0.1"
